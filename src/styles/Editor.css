@@ -1,0 +1,65 @@
+.editor-container{
+    width: 100vw;
+    background: #1d1e22 !important;
+    color: white;
+    padding: 0 1px;
+    border: 1px solid #060606;
+}
+.title-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-right: 10px;
+    background-color: #060606;
+}
+.title{
+    display: flex;
+    height: 40px;
+    width: 90px;
+    justify-content: center;
+    align-items: center;
+    color: #aaaebc;
+    background-color: #1d1e22;
+}
+.title p{
+    font-weight: 500;
+}
+.title span{
+    margin-right: 5px;
+    background-color: rgb(241, 79, 79);
+    width: 21px;
+    height: 21px;
+    align-items: center;
+    text-align: center;
+    border-radius: 3px;
+    color: black;
+    font-size: 14px;
+    padding: 1px;
+}
+
+.title-bar button{
+    background-color: #444857;
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-right: 5px;
+} 
+.CodeMirror{
+    height: 50vh !important;
+    background-color: #1d1e22 !important;
+} 
+.controlled-editor{
+    background-color: #1d1e22;
+    height: 50vh;
+}
+.CodeMirror-gutters{
+    background-color: #1d1e22 !important;
+}
+
