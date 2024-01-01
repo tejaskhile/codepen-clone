@@ -35,7 +35,7 @@ const Editor = (props) => {
       <div className='editor-container'>
         <div className='title-bar'>
             <div className='title'>
-                <span> {symbol} </span>
+                <span>{symbol}</span>
                 <p>{displayName}</p>
             </div>
             <button>
